@@ -21,916 +21,164 @@ msgstr ""
 
 #: core/text_manager/texts.py:164
 msgid ""
-"<b>📖 Главное меню</b>\n"
+"<b>📖 Main Menu</b>\n"
 "\n"
-"Выберите интересующий Вас раздел:"
+"Select the section you are interested in:"
 msgstr ""
-"<b>📖 Главное меню</b>\n"
+"<b>📖 Main Menu</b>\n"
 "\n"
-"Выберите интересующий Вас раздел:"
+"Select the section you are interested in:"
 
 #: core/text_manager/texts.py:167
-msgid "Устанавливаю кнопку главного меню."
-msgstr ""
+msgid "Setting up the main menu button." msgstr ""
 
 #: core/text_manager/texts.py:170
 msgid ""
-"<b>👨‍💻 Панель администратора</b>\n"
-"   -> <b>🛒 Управление заказами</b>\n"
+"<b>👨‍💻 Admin Panel</b>\n"
+"   -> <b>🛒 Order Management</b>\n"
 "\n"
-"🔸 Нажмите на статус, чтобы включить или выключить отображение заказов с "
-"соответствующим статусом.\n"
+"🔸 Click on a status to toggle the display of orders with that specific "
+"status.\n"
 "\n"
-"🔸 Введите user_id в формате <b>'id-********'</b> для настройки фильтра по"
-" ID пользователя.\n"
-"🔸 Введите order_id в формате <b>'o_id-********'</b> для настройки фильтра"
-" по ID заказа.\n"
-"🔸 Введите целевую ссылку заказа в формате <b>'link-********'</b> для "
-"настройки фильтра по ссылке.\n"
+"🔸 Enter a user_id in the format <b>'id-********'</b> to set a filter by"
+" User ID.\n"
+"🔸 Enter an order_id in the format <b>'o_id-********'</b> to set a filter"
+" by Order ID.\n"
+"🔸 Enter an order target link in the format <b>'link-********'</b> to "
+"set a filter by link.\n"
 "\n"
-"🔸 Текущие настройки фильтров:\n"
+"🔸 Current filter settings:\n"
 "   ▫️ id: {user_id}\n"
 "   ▫️ order_id: {order_id}\n"
 "   ▫️ link: {link}\n"
-"   ▫️ Статусы:\n"
+"   ▫️ Statuses:\n"
 msgstr ""
 
 #: core/text_manager/texts.py:196
 msgid ""
-"<b>🛒 Мои заказы</b>\n"
+"<b>🛒 My Orders</b>\n"
 "\n"
-"Здесь все ваши заказы собраны в 3 группы по статусам:\n"
+"Here, all your orders are grouped into 3 categories based on their status:\n"
 "\n"
-"🟢 <b>Активные -</b> {pending} | {new} | {in_progress}\n"
+"🟢 <b>Active -</b> {pending} | {new} | {in_progress}\n"
 "\n"
-"✅ <b>Завершенные -</b> {completed} | {partial}\n"
+"✅ <b>Completed -</b> {completed} | {partial}\n"
 "\n"
-"❌ <b>Отмененные -</b> {canceled}\n"
+"❌ <b>Canceled -</b> {canceled}\n"
 "\n"
-"Вы можете включать/выключать отображение групп нажатием на "
-"соответствующую кнопку.\n"
-"Или нажмите на кнопку <b>🛒 Все заказы</b>, чтобы отобразить все."
+"You can toggle the display of these groups by clicking the "
+"corresponding button.\n"
+"Alternatively, click the <b>🛒 All Orders</b> button to display everything."
 msgstr ""
 
 #: core/text_manager/texts.py:212
-msgid "🤷‍♂️ Заказ не найден!"
-msgstr ""
+msgid "🤷‍♂️ Order not found!" msgstr ""
 
 #: core/text_manager/texts.py:215
-msgid "☝️ Заказ уже оплачен!"
+msgid "☝️ The order has already been paid!"
 msgstr ""
 
 #: core/text_manager/texts.py:218
-msgid "🎉 Заказ успешно оплачен!"
+msgid "🎉 Order successfully paid!"
 msgstr ""
 
 #: core/text_manager/texts.py:221
 msgid ""
-"🙁 Недостаточно средств на балансе!\n"
-"Не хватает: {replenish_amount} руб."
+"🙁 Insufficient funds on your balance!\n"
+"Amount needed: {replenish_amount} RUB."
 msgstr ""
 
 #: core/text_manager/texts.py:227
 msgid ""
-"<b>🛒 Мои заказы</b>\n"
-"   <b>└🧾 Информация о заказе:</b>\n"
+"<b>🛒 My Orders</b>\n"
+"   <b>└🧾 Order Details:</b>\n"
 "\n"
 "<b>{name}</b>\n"
 "ID:                     <b>{id}</b>\n"
 "Export ID:         <b>{export_id}</b>\n"
-"Статус:            <b>{status}</b>\n"
-"Ссылка:            <b>{url}</b>\n"
-"Количество:    <b>{quantity}</b>\n"
-"Стоимость:      <b>{price}</b>\n"
+"Status:            <b>{status}</b>\n"
+"Link:            <b>{url}</b>\n"
+"Quantity:    <b>{quantity}</b>\n"
+"Price:      <b>{price}</b>\n"
 msgstr ""
 
 #: core/text_manager/texts.py:241
-msgid "Присваивается после оплаты"
+msgid "Assigned after payment"
 msgstr ""
 
 #: core/text_manager/texts.py:244
 msgid ""
-"<b>👛 Кошелёк</b>\n"
+"<b>👛 Wallet</b>\n"
 "\n"
-"💰 Ваш баланс: <b>{balance}</b> руб.\n"
+"💰 Your balance: <b>{balance}</b> RUB.\n"
 "\n"
-"💳 Выберите действие или введите сумму пополнения.\n"
+"💳 Select an action or enter a top-up amount.\n"
 msgstr ""
 
 #: core/text_manager/texts.py:253
 msgid ""
-"<b>👛 Кошелёк</b>\n"
-"   <b>└💳 Пополнение</b>\n"
+"<b>👛 Wallet</b>\n"
+"   <b>└💳 Top-up</b>\n"
 "\n"
-"Выберите или введите сумму для пополнения:\n"
+"Select or enter an amount to top up:\n"
 msgstr ""
 
 #: core/text_manager/texts.py:261
-msgid "☝️ Минимальная сумма пополнения - {min_sum} руб!"
-msgstr ""
+msgid "☝️ The minimum top-up amount is {min_sum} RUB!" msgstr ""
 
 #: core/text_manager/texts.py:264
 msgid ""
-"<b>👛 Кошелёк</b>\n"
-"   <b>└💳 Пополнение</b>\n"
-"      <b>└ Выбор способа Оплаты</b>\n"
+"<b>👛 Wallet</b>\n"
+"   <b>└💳 Top Up</b>\n"
+"      <b>└ Select Payment Method</b>\n"
 "\n"
-"Сумма пополнения: {amount} руб.\n"
+"Top-up amount: {amount} RUB\n"
 msgstr ""
 
 #: core/text_manager/texts.py:273
 msgid ""
-"<b>👛 Кошелёк</b>\n"
-"   <b>└📨 Операции</b>\n"
+"<b>👛 Wallet</b>\n"
+"   <b>└📨 Transactions</b>\n"
 "\n"
 "{operations}\n"
 msgstr ""
 
 #: core/text_manager/texts.py:276
-msgid "🤷‍♂️ У вас нет операций по счету."
+msgid "🤷‍♂️ You have no transactions on your account."
 msgstr ""
 
 #: core/text_manager/texts.py:279
 msgid ""
-"<b>💰 Оплата прошла успешно.</b>\n"
-"Сервис: <b>{gateway_name}</b>\n"
-"Сумма: <b>{amount}</b> руб."
-msgstr ""
+"<b>💰 Payment successful.</b>\n"
+"Service: <b>{gateway_name}</b>\n"
+"Amount: <b>{amount}</b> RUB" msgstr ""
 
 #: core/text_manager/texts.py:286
 msgid ""
-"<b>🤝 Партнерская программа</b>\n"
+"<b>🤝 Affiliate Program</b>\n"
 "\n"
-"🏆 Вознаграждения по реферальной (партнерской) \n"
-"программе разделены на два уровня:\n"
-"├  За пользователей которые присоединились по Вашей ссылке - рефералы 1 "
-"уровня\n"
-"└  За пользователей которые присоединились по ссылкам Ваших рефералов - "
-"рефералы 2 уровня\n"
-"🤑 Сколько можно заработать?\n"
-"├  За реферала 1 уровня: {level_one_percents}%\n"
-"└  За реферала 2 уровня: {level_two_percents}%\n"
+"🏆 Rewards under the referral (affiliate) \n"
+"program are divided into two levels:\n"
+"├  For users who joined via your link — Level 1 referrals\n"
+"└  For users who joined via your referrals' links — Level 2 referrals\n"
+"🤑 How much can you earn?\n"
+"├  For a Level 1 referral: {level_one_percents}%\n"
+"└  For a Level 2 referral: {level_two_percents}%\n"
 "\n"
-"🥇 Статистика:\n"
-"├  Всего заработано: {total_bonus_amount}\n"
-"└  Лично приглашенных: {referrals_count}\n"
+"🥇 Statistics:\n"
+"├  Total earned: {total_bonus_amount}\n"
+"└  Personally invited: {referrals_count}\n"
 "\n"
-"🎁 Бонус за регистрацию:\n"
-"└  За каждого пользователя который активировал бот по вашей реферальной "
-"ссылке, через ваш чек, или через бота, которого вы создали вы, так же "
-"получаете {bonus_amount} рублей.\n"
+"🎁 Registration Bonus:\n"
+"└  For every user who activates the bot via your referral \n"
+"link, via your check, or via a bot that you created, you also \n"
+"receive {bonus_amount} rubles.\n"
 "\n"
-"⤵️ Ваши ссылки:\n"
+"⤵️ Your Links:\n"
 "└ https://t.me/{bot_username}?start=ref_{user_id}\n"
 msgstr ""
 
 #: core/text_manager/texts.py:315
 msgid ""
-"💰 Вы получили реферальное вознаграждение в размере "
-"<b>{affiliate_bonus}</b> руб."
-msgstr ""
-
-#: core/text_manager/texts.py:321
-msgid "☝️ Вы не можете регистрироваться по собственной реферальной ссылке!"
-msgstr ""
-
-#: core/text_manager/texts.py:327
-msgid ""
-"Вы попытались зарегистрироваться по некорректной реферальной ссылке.\n"
-"🤷‍♂️ Пользователя с таким идентификатором не существует."
-msgstr ""
-
-#: core/text_manager/texts.py:335
-msgid "🔗 По вашей реферальной ссылке зарегистрировался новый пользователь."
-msgstr ""
-
-#: core/text_manager/texts.py:341
-msgid "🤖 В вашем боте зарегистрировался новый пользователь."
-msgstr ""
-
-#: core/text_manager/texts.py:344
-msgid "🦋 По вашему чеку зарегистрировался новый пользователь."
-msgstr ""
-
-#: core/text_manager/texts.py:347
-msgid ""
-"{cause_description}\n"
-"🎁 Вы получили бонус в размере <b>{amount}</b> руб."
-msgstr ""
-
-#: core/text_manager/texts.py:354
-msgid ""
-"🤷‍♂️ Чека с идентификатором <b>'{cheque_number}'</b> не существует.\n"
-"🤔 Возможно он был удален владельцем."
-msgstr ""
-
-#: core/text_manager/texts.py:362
-msgid "☝️ Вы не можете активировать чек повторно!"
-msgstr ""
-
-#: core/text_manager/texts.py:365
-msgid "🙁 Этот чек уже полностью использован!"
-msgstr ""
-
-#: core/text_manager/texts.py:368
-msgid "☝️ Вы не можете активировать свой же чек!"
-msgstr ""
-
-#: core/text_manager/texts.py:371
-msgid ""
-"☝️ Вы пока не можете активировать данный чек\n"
-"\n"
-"Он доступен только для подписчиков указанных ниже каналов и групп:\n"
-"{subscribes_list}\n"
-"\n"
-"Подпишитесь на них и нажмите кнопку ниже 👇\n"
-msgstr ""
-
-#: core/text_manager/texts.py:382
-msgid "🦋 Ваш {cheque_type} был активирован!"
-msgstr ""
-
-#: core/text_manager/texts.py:385
-msgid ""
-"🦋 Вы активировали чек!\n"
-"💰 Ваш баланс пополнен на <b>{amount}</b> руб."
-msgstr ""
-
-#: core/text_manager/texts.py:391
-msgid "🤷‍♂️ Что-то пошло не так. Повторите попытку позже."
-msgstr ""
-
-#: core/text_manager/texts.py:394
-msgid ""
-"🔥 <b>Создание нового заказа!</b>\n"
-"   <b>└🗄️ Выбор категории</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:400
-msgid ""
-"<b>🔥 Создание нового заказа!</b>\n"
-"   <b>└🗃️ Выбор подкатегории</b>\n"
-"\n"
-"🗄️ Категория: <b>{category_name}</b>\n"
-msgstr ""
-
-#: core/text_manager/texts.py:408
-msgid ""
-"<b>🔥 Создание нового заказа!</b>\n"
-"   <b>└🧾 Выбор услуги</b>\n"
-"\n"
-"🗄️ Категория: <b>{category_name}</b>\n"
-"🗃️ Подкатегория: <b>{subcategory_name}</b>\n"
-msgstr ""
-
-#: core/text_manager/texts.py:417
-msgid ""
-"<b>🔥 Создание нового заказа!</b>\n"
-"   <b>└📦 Количество</b>\n"
-"\n"
-"🗄️ Категория: <b>{category_name}</b>\n"
-"🗃️ Подкатегория: <b>{subcategory_name}</b>\n"
-"🧾 Услуга: <b>{title}</b>\n"
-"💵 Цена: <b>{price} руб</b> за одну единицу (Подписчик, лайк, репост...)\n"
-"\n"
-"👇 Введите количество для заказа от {min_quantity} до {max_quantity}:"
-msgstr ""
-
-#: core/text_manager/texts.py:430
-msgid "☝️ Введите целое число в диапазоне от {min_quantity} до {max_quantity}"
-msgstr ""
-
-#: core/text_manager/texts.py:435
-msgid ""
-"<b>🔥 Создание нового заказа!</b>\n"
-"   <b>└🔗 Адрес целевой страницы</b>\n"
-"\n"
-"🗄️ Категория: <b>{category_name}</b>\n"
-"🗃️ Подкатегория: <b>{subcategory_name}</b>\n"
-"🧾 Услуга: <b>{title}</b>\n"
-"💵 Цена: <b>{price} руб</b> за одну единицу (Подписчик, лайк, репост...)\n"
-"📦 Количество: <b>{quantity}</b>\n"
-"\n"
-"👇 Введите адрес целевой страницы (ссылка на фото, профиль, видео):"
-msgstr ""
-
-#: core/text_manager/texts.py:449
-msgid "☝️ Введите ссылку в формате: <b>'https://example.com'</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:452
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"\n"
-"💰 Ваши боты помогают вам <b>зарабатывать!</b>\n"
-"\n"
-"🏆 Каждый новый пользователь, который зарегистрируется через вашего бота, "
-"автоматически становится вашим <b>рефералом</b>.\n"
-"\n"
-"⚙️ Здесь вы можете управлять своими ботами.\n"
-msgstr ""
-
-#: core/text_manager/texts.py:464
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└📇 Информация о боте</b>\n"
-"\n"
-"Имя: <b>@{bot_username}</b>\n"
-"Токен: <b>{bot_token}</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:473
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└📇 Информация о боте</b>\n"
-"\n"
-"Имя: <b>Неавторизованный</b>\n"
-"Токен: <b>{bot_token}</b>\n"
-"<b>⚠️ Токен недействителен.</b>\n"
-"\n"
-"👇 Введите новый токен:"
-msgstr ""
-
-#: core/text_manager/texts.py:486
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└🛠️ Создание бота</b>\n"
-"\n"
-"🔗 Перейдите к @BotFather.\n"
-"\n"
-"⌨️ Введите команду /newbot и следуйте инструкциям.\n"
-"\n"
-"🔑 Скопируйте <b>API Токен</b>, который вы получите после создания бота.\n"
-"\n"
-"👇 Вернитесь сюда и введите его:"
-msgstr ""
-
-#: core/text_manager/texts.py:500
-msgid "☝️ Это не токен!"
-msgstr ""
-
-#: core/text_manager/texts.py:503
-msgid "☝️ Такой бот уже существует!"
-msgstr ""
-
-#: core/text_manager/texts.py:506
-msgid "☝️ Токен введен неправильно. Попробуйте еще раз."
-msgstr ""
-
-#: core/text_manager/texts.py:509
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└🛠️ Бот готов!</b>\n"
-"\n"
-"🤖 Ваш новый бот @{bot_username} готов к использованию!\n"
-"🔗 Ссылка для приглашения:\n"
-"   <a href='https://t.me/{bot_username}'>{bot_username}</a>"
-msgstr ""
-
-#: core/text_manager/texts.py:520
-msgid "'Неавторизованный'"
-msgstr ""
-
-#: core/text_manager/texts.py:523
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└🗑️ Удаление бота</b>\n"
-"\n"
-"Вы уверены, что хотите удалить бота:\n"
-"   {bot_username}?"
-msgstr ""
-
-#: core/text_manager/texts.py:532
-msgid ""
-"<b>🤖 Управление ботами</b>\n"
-"   <b>└🗑️ Удаление бота</b>\n"
-"\n"
-"Бот {bot_username} успешно был удалён."
-msgstr ""
-
-#: core/text_manager/texts.py:540
-msgid "🦋 <b>Персональный чек</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:543
-msgid "🦋 <b>Мульти-чек</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:546
-msgid "💰 Внутри <b>{amount}</b> руб!"
-msgstr ""
-
-#: core/text_manager/texts.py:549
-msgid "💰 Внутри <b>{quantity}</b> активаций(я) по <b>{amount}</b> руб!"
-msgstr ""
-
-#: core/text_manager/texts.py:554
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"\n"
-"Чеки позволяют отправлять деньги прямо в сообщениях.\n"
-"\n"
-"🔸 Персональный чек - для отправки денег одному пользователю.\n"
-"\n"
-"🔸 Мульти-чек - можно отправить нескольким пользователям, а также  "
-"настроить условия активации(наличие подписок у пользователя на "
-"определенные каналы и группы).\n"
-"\n"
-"<b>👇 Выберите тип чека:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:568
-msgid ""
-"🙁 Ваш баланс равен нулю.\n"
-"👇 Пополните его, чтобы создавать чеки!"
-msgstr ""
-
-#: core/text_manager/texts.py:574
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 🧍 Персональный чек</b>\n"
-"      <b>└ 💸 Стоимость активации</b>\n"
-"\n"
-"<b>👇 Введите или выберите сумму чека:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:583
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 💸 Стоимость активации</b>\n"
-"\n"
-"Укажите стоимость <b>одной</b> активации.\n"
-"\n"
-"Чем больше сумма активации, тем больше каналов/групп можно добавить в "
-"условия подписки:\n"
-"🔸 <b>{check_min_sum}</b> руб - <b>3</b> канала/группы\n"
-"🔸 <b>{sum_for_four}</b> руб - <b>4</b> канала/группы\n"
-"🔸 <b>{sum_for_five}</b> руб - <b>5</b> каналов/групп\n"
-"\n"
-"<b>👇 Введите или выберите сумму:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:599
-msgid "☝️ Сумма должна быть положительной!"
-msgstr ""
-
-#: core/text_manager/texts.py:602
-msgid ""
-"☝️ Введите сумму не превышающую ваш баланс!\n"
-"💰 Ваш баланс: <b>{balance}</b> руб."
-msgstr ""
-
-#: core/text_manager/texts.py:608
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 💸 Стоимость активации</b>\n"
-"         <b>└ 📦 Количество активаций</b>\n"
-"\n"
-"Сколько пользователей смогут активировать этот чек?\n"
-"\n"
-"🔸 Одна активация: <b>{cheque_amount}</b>\n"
-"\n"
-"🔸 Максимум активаций с вашим балансом: <b>{max_quantity}</b>\n"
-"\n"
-"<b>👇 Введите количество активаций или выберите один из предложенных "
-"вариантов:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:624
-msgid "☝️ Введите положительное целое число!"
-msgstr ""
-
-#: core/text_manager/texts.py:627
-msgid "☝️ Вы можете указать не больше {max_quantity} активации!\n"
-msgstr ""
-
-#: core/text_manager/texts.py:630
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 💸 Стоимость активации</b>\n"
-"         <b>└ 📦 Количество активаций</b>\n"
-"            <b>└ ✔️ Подтвердить</b>\n"
-"\n"
-"<b>Общая сумма чека: {total_amount} руб</b>\n"
-"\n"
-"<b>Внутри чека: {quantity} активаций(я) по {amount} руб\n"
-"</b>\n"
-"<b>🔸 Пожалуйста, подтвердите корректность данных:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:645
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 🧍 Персональный чек</b>\n"
-"      <b>└ 💸 Стоимость активации</b>\n"
-"            <b>└ ✔️ Подтвердить</b>\n"
-"\n"
-"<b>Сумма чека: {amount} руб</b>\n"
-"\n"
-"🔸 <b>Пожалуйста, подтвердите корректность данных:</b>"
-msgstr ""
-
-#: core/text_manager/texts.py:657
-msgid "🙁 Недостаточно средств, пополните баланс!"
-msgstr ""
-
-#: core/text_manager/texts.py:660
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 🧍 Персональные чеки</b>\n"
-"\n"
-"Список Ваших персональных чеков:"
-msgstr ""
-
-#: core/text_manager/texts.py:668
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чеки</b>\n"
-"\n"
-"Список Ваших мульти-чеков:"
-msgstr ""
-
-#: core/text_manager/texts.py:676
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🏷 Информация о чеке</b>\n"
-"\n"
-"Общая сумма: <b>{total_amount}</b> руб\n"
-"Статус: <b>{status}</b>\n"
-"\n"
-"Внутри: <b>{quantity} / {total_quantity}</b> активации.\n"
-"1 активация - <b>{amount}</b> руб\n"
-"\n"
-"Ссылка на чек:\n"
-"<span class=\"tg-spoiler\">{cheque_link}</span>"
-msgstr ""
-
-#: core/text_manager/texts.py:692
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 🧍 Персональные чек</b>\n"
-"      <b>└ 🏷 Информация о чеке</b>\n"
-"\n"
-"Сумма: <b>{amount}</b> руб\n"
-"Статус: <b>{status}</b>\n"
-"\n"
-"Ссылка на чек:\n"
-"<span class='tg-spoiler'>{cheque_link}</span>"
-msgstr ""
-
-#: core/text_manager/texts.py:705
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└🗑️ Удаление чека</b>\n"
-"\n"
-"Вы точно хотите удалить чек?"
-msgstr ""
-
-#: core/text_manager/texts.py:713
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└🗑️ Удаление подписки</b>\n"
-"\n"
-"Вы точно хотите удалить подписку из чека?"
-msgstr ""
-
-#: core/text_manager/texts.py:721
-msgid ""
-"🤷‍♂️ Что-то пошло не так!\n"
-"🤔 Такого чека не существует или вы не являетесь его владельцем!"
-msgstr ""
-
-#: core/text_manager/texts.py:727
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└🗑️ Удаление чека</b>\n"
-"\n"
-"Чек успешно удален"
-msgstr ""
-
-#: core/text_manager/texts.py:732
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписки</b>\n"
-"\n"
-"Здесь собраны подписки, которые были добавлены в чек.\n"
-"\n"
-msgstr ""
-
-#: core/text_manager/texts.py:742
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписки</b>\n"
-"         <b>└ ➕ Добавить подписку</b>\n"
-"\n"
-"👇 Выберите тип подписки:\n"
-"\n"
-msgstr ""
-
-#: core/text_manager/texts.py:753
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписки</b>\n"
-"         <b>└ 📣 Добавить канал</b>\n"
-"\n"
-"🔸 Бот должен быть <b>администратором канала</b>, а также иметь "
-"<b>разрешение на приглашение</b> пользователей в канал.\n"
-"\n"
-"👇 Перешлите сюда сообщение из канала.\n"
-"\n"
-msgstr ""
-
-#: core/text_manager/texts.py:767
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписки</b>\n"
-"         <b>└ 👥 Добавить публичную группу</b>\n"
-"\n"
-"Чтобы ограничить ваш мульти-чек публичной группой, отправьте сюда "
-"инвайт-ссылку на нее.\n"
-"\n"
-"Например https://t.me/{bot_username}"
-msgstr ""
-
-#: core/text_manager/texts.py:779
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписки</b>\n"
-"         <b>└ 🔒 Добавить приватную группу</b>\n"
-"\n"
-"🔸 Бот должен быть <b>администратором группы</b>, а также иметь "
-"<b>разрешение на приглашение</b> пользователей в группу.\n"
-"Для добавления приватной группы в чек, введите её идентификатор.\n"
-"\n"
-"☝️ Если он вам неизвестен, то отправьте в группе команду "
-"<b>/get_group_id</b>.\n"
-"В ответ бот пришлет вам идентификатор группы. Скопируйте его и введите "
-"сюда.\n"
-"\n"
-"👇 Введите идентификатор группы:\n"
-msgstr ""
-
-#: core/text_manager/texts.py:797
-msgid "☝️ Вы больше не можете добавлять подписки в этот чек!"
-msgstr ""
-
-#: core/text_manager/texts.py:800
-msgid "☝️ Это не сообщение из канала."
-msgstr ""
-
-#: core/text_manager/texts.py:803
-msgid "☝️ Бот не добавлен в администраторы канала!"
-msgstr ""
-
-#: core/text_manager/texts.py:806
-msgid "☝️ Это не канал!"
-msgstr ""
-
-#: core/text_manager/texts.py:809
-msgid ""
-"🤷‍♂️ Такой группы не существует!\n"
-"🤔 Или эта группа является приватной.\n"
-"☝️ Попробуйте выбрать подписку на приватную группу."
-msgstr ""
-
-#: core/text_manager/texts.py:816
-msgid "☝️ Идентификатор группы должен быть числом!"
-msgstr ""
-
-#: core/text_manager/texts.py:819
-msgid "☝️ Такой группы не существует или бот не добавлен в группу!"
-msgstr ""
-
-#: core/text_manager/texts.py:824
-msgid "☝️ Это не приватная группа!"
-msgstr ""
-
-#: core/text_manager/texts.py:827
-msgid ""
-"☝️ Бот не является администратором группы или у него нет права приглашать"
-" пользователей!"
-msgstr ""
-
-#: core/text_manager/texts.py:833
-msgid "☝️ Этот канал уже добавлен в этот чек!"
-msgstr ""
-
-#: core/text_manager/texts.py:836
-msgid "🎉 Подписка на канал/группу успешно добавлена в чек."
-msgstr ""
-
-#: core/text_manager/texts.py:839
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└🗑️ Удаление подписки</b>\n"
-"\n"
-"Подписка успешно удалена."
-msgstr ""
-
-#: core/text_manager/texts.py:847
-msgid ""
-"<b>🦋 Чеки</b>\n"
-"   <b>└ 👬 Мульти-чек</b>\n"
-"      <b>└ 🔔 Подписка</b>\n"
-"\n"
-"Подписка на канал/группу привязанная к этому мульти-чеку:\n"
-"\n"
-"Название канала/группы: {title}\n"
-"\n"
-"Ссылка: {link}"
-msgstr ""
-
-#~ msgid "🔥 Новый заказ"
-#~ msgstr "Новый заказ 🔥"
-
-#~ msgid ""
-#~ "<b>👛 Кошелёк</b>\n"
-#~ "\n"
-#~ "💰 Ваш баланс: <b>{balance}</b> руб.\n"
-#~ "\n"
-#~ "💳 Выберите действие или введите сумму пополнения."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>👛 Кошелёк</b>\n"
-#~ "   <b>└💳 Пополнение</b>\n"
-#~ "\n"
-#~ "Выберите или введите сумму для пополнения:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>👨‍💻 Панель администратора\n"
-#~ "   -> 🛒 Управление заказами</b>\n"
-#~ "      -> 🔎 <b>Настройка фильтров</b>\n"
-#~ "\n"
-#~ "Нажмите на статус, чтобы включить или"
-#~ " выключить отображение заказов с "
-#~ "соответствующим статусом.\n"
-#~ "\n"
-#~ "Введите user_id в формате <b>'id-********'</b>"
-#~ " для настройки фильтра по ID "
-#~ "пользователя.\n"
-#~ "Введите order_id в формате "
-#~ "<b>'o_id-********'</b> для настройки фильтра "
-#~ "по ID заказа.\n"
-#~ "Введите целевую ссылку заказа в формате"
-#~ " <b>'link-********'</b> для настройки фильтра "
-#~ "по ссылке.\n"
-#~ "\n"
-#~ "Текущие настройки фильтров:\n"
-#~ "   ▫️ id: {user_id}\n"
-#~ "   ▫️ order_id: {order_id}\n"
-#~ "   ▫️ link: {link}\n"
-#~ "   ▫️ Статусы:\n"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "\n"
-#~ "Чеки позволяют отправлять деньги прямо в сообщениях.\n"
-#~ "\n"
-#~ "🔸Персональный чек - для отправки денег одному пользователю.\n"
-#~ "🔸Мульти-чек - можно отправить нескольким "
-#~ "пользователям. А также  настроить условия\n"
-#~ ""
-#~ " активации(наличие подписок у пользователя "
-#~ "на определенные каналы и группы).\n"
-#~ "\n"
-#~ "<b>Выберите тип чека:</b>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 💸 Стоимость активации</b>\n"
-#~ "\n"
-#~ "Укажите стоимость <b>одной</b> активации.\n"
-#~ "\n"
-#~ "Чем больше сумма активации, тем больше"
-#~ " каналов/групп можно добавить в условия "
-#~ "подписки (<b>1</b> канал/группа на каждые "
-#~ "<b>{subscribe_cost}</b> руб)\n"
-#~ "\n"
-#~ "<b>👇 Введите или выберите сумму:</b>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 💸 Стоимость активации</b>\n"
-#~ "         <b>└ 📦 Количество активаций</b>\n"
-#~ "\n"
-#~ "Сколько пользователей смогут активировать этот чек?\n"
-#~ "\n"
-#~ "🔸 Одна активация: <b>{cheque_amount}</b>\n"
-#~ "\n"
-#~ "🔸 Максимум активаций с вашим балансом: <b>{max_quantity}</b>\n"
-#~ "\n"
-#~ "<b>👇 Введите количество активаций:</b>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└🗑️ Удаление чека</b>\n"
-#~ "Чек успешно удален"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Добавить подписку</b>\n"
-#~ "\n"
-#~ "Можно добавить обязательную подписку на "
-#~ "группу или канал при активации чека."
-#~ "\n"
-#~ "Количество групп и каналов <b>ограничено суммой одной активации.</b>\n"
-#~ "Один канал/группа - <b>{amount_per_subscribe}</b> руб.\n"
-#~ "\n"
-#~ "Вы можете добавить до <b>{subscribes_total}</b> каналов в этот чек.\n"
-#~ "\n"
-#~ "Уже добавлено: <b>{current_subscribes_count}</b>.\n"
-#~ "\n"
-#~ "Ваши подписки привязанные к этому мульти-чеку:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Подписки</b>\n"
-#~ "         <b>└ 👥 Добавить канал</b>\n"
-#~ "\n"
-#~ "Чтобы ограничить ваш мульти-чек каналом, "
-#~ "перешлите сюда сообщение из канала.\n"
-#~ "\n"
-#~ "Я проверю, нужно ли сделать еще что-то."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Подписки</b>\n"
-#~ "         <b>└ 🔒 Добавить приватную группу</b>\n"
-#~ "\n"
-#~ "Чтобы ограничить ваш мульти-чек публичной "
-#~ "группой, отправьте сюда инвайт-ссылку на "
-#~ "нее.\n"
-#~ "\n"
-#~ "Например https://t.me/{bot_username}"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Подписки</b>\n"
-#~ "         <b>└  Добавить группу</b>\n"
-#~ "\n"
-#~ "Чтобы иметь возможность привязать к чеку приватную группу:\n"
-#~ "🔸 Бот должен быть <b>администратором "
-#~ "группы</b>, а также иметь <b>разрешение "
-#~ "на приглашение</b> пользователей в группу, "
-#~ "чтобы он мог сгенерировать инвайт-ссылку.\n"
-#~ ""
-#~ "🔸 Пришлите идентификатор группы.\n"
-#~ "Если бот уже добавлен в ваш чат"
-#~ " то его можно узнать отправив команду"
-#~ " <b>/get_group_id</b> в группу. В ответ "
-#~ "бот пришлет вам идентификатор.\n"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Подписки</b>\n"
-#~ "\n"
-#~ "Ваши подписки привязанные к этому мульти-чеку:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>🦋 Чеки</b>\n"
-#~ "   <b>└ 👬 Мульти-чек</b>\n"
-#~ "      <b>└ 🔔 Подписка</b>\n"
-#~ "\n"
-#~ "Подписка на канал/группу привязанная к этому мульти-чеку:\n"
-#~ "Название канала/группы: {title}\n"
-#~ "Ссылка: {link}"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>Правила пользования</b>\n"
-#~ "\n"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "<b>Оферта</b>\n"
-#~ "\n"
-#~ msgstr ""
-
+"💰 You have received a referral reward of "
+"<b>{affiliate_bonus}</b> RUB.
